@@ -1,16 +1,38 @@
-# rkrj7_news
+# RKRJ7 News 📰
 
-A new Flutter project.
+A **Flutter news app** built to understand **API calling** using [NewsAPI.org](https://newsapi.org/).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- See **latest news**
+- Browse **category-wise news**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Setup
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/your-username/rkrj7-news.git
+cd rkrj7-news
+flutter pub get
+```
+
+2. In `lib/`, create folder `auth/` → file `delicate_info.dart`:
+
+```dart
+const String apiKey = "YOUR_API_KEY";
+```
+
+3. Run the app:
+
+```bash
+flutter run
+```
+
+---
+
+💡 Built with ❤️ using **Flutter + NewsAPI** by **rkrkj7**
